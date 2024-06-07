@@ -6,11 +6,17 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "davcpas1234/laravelpdfviewer": "^1.0",
+        "goodnesskay/laravelpdfviewer": "^1.0",
         "laravel/framework": "^11.0",
-        "laravel/tinker": "^2.9"
+        "laravel/sanctum": "^4.0",
+        "laravel/tinker": "^2.9",
+        "nesbot/carbon": "^3.4",
+        "vish4395/laravel-file-viewer": "^1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
+        "laravel/breeze": "^2.0",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",

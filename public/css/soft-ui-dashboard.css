@@ -50,11 +50,13 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #67748e;
+  color: #ffffff;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+
 
 hr {
   margin: 1rem 0;
@@ -2443,6 +2445,22 @@ progress {
   width: 100%;
   margin-bottom: 1rem;
   color: #67748e;
+  vertical-align: top;
+  border-color: #e9ecef;
+}
+
+#tablesiswa {
+  --bs-table-bg: rgba(255, 255, 255, 0.11);
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: #ffffff;
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+  --bs-table-active-color: #ffffff;
+  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  --bs-table-hover-color: #ffffff;
+  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #ffffff;
   vertical-align: top;
   border-color: #e9ecef;
 }
@@ -9911,11 +9929,11 @@ fieldset:disabled .btn {
 }
 
 .bg-gray-200 {
-  background-color: #e9ecef !important;
+  background-color: #2c3154;
 }
 
 .bg-gray-300 {
-  background-color: #dee2e6 !important;
+  background-color: #125688 !important;
 }
 
 .bg-gray-400 {
